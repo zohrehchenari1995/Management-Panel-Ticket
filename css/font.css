@@ -4,6 +4,7 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap;
+   font-feature-settings: "pnum"
 }
 @font-face{
   font-family: "iranyekan";
@@ -62,6 +63,6 @@
   font-display: swap;
 }
 
-body{
+body,button{
   font-family: "iranyekan";
 }
