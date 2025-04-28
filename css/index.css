@@ -1,0 +1,136 @@
+/* FONT WEIGHT */
+@import url("./font.css");
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* FONT-SIZE */
+html {
+  font-size: 62.5%;
+}
+
+/* VARIABLE */
+:root {
+  --color-primary: rgb( 33, 159, 149);
+  --color-secondary: rgb(175, 206, 221);
+  --color-secondary-dark: rgb(35, 72, 148);
+  --color-body-text: rgb(30, 30, 30);
+  --color-detail: rgb(105, 105, 105);
+  --color-text-button: rgb(255, 255, 255);
+  --color-backgroun: rgb(255, 255, 255);
+
+  --border-radius-xs: 2px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+}
+
+
+
+/*--------------------------------------- STYLE FOR CONTENT */
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h2{
+  font-size: 1.6rem;
+}
+
+h4{
+  font-size: 1.4rem;
+}
+
+.panel-ticket{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 100px auto;
+  box-shadow: 0 0 10px 15px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius-lg);
+}
+.panel__items{
+  display: grid;
+  row-gap: 2rem;
+  padding: 5rem 0;
+  margin-top: 1rem;
+}
+.panel-ticket .panel__title{
+  margin: 5rem 0;
+}
+/* END STYLE FOR CONTENT--------------------------------- */
+
+
+/*------------------------------------ MEDIA FOR CONTENT */
+
+  @media screen and (min-width:768px){
+    .panel__items{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-items: center;
+      align-items: center;
+      gap: 30rem;
+      margin-top: 2rem;
+    }
+
+  }
+
+  @media screen and (min-width:1024px){
+    .panel__items{
+      grid-template-columns: repeat(3,1fr);
+      justify-items: center;
+      align-items: center;
+    }
+  }
+
+
+
+
+
+/* END MEDIA FOR CONTENT------------------------------- */
+
+
+
+
+
+
+/*-------------------------------- MEDIA FOR FONT-SIZE */
+@media screen and (min-width:768px){
+  h2{
+    font-size: 1.8rem;
+  }
+  h4{
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width:1024px){
+  h2{
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 1.8rem;
+  }
+}
+/* END MEDIA FOR FONT-SIZE--------------------------- */
+
+
+
+
+
+
+
+
+
+
