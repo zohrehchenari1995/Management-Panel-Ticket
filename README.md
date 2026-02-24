@@ -24,7 +24,7 @@ Beyond its technical demonstration, the project highlights my ability to design 
 
 Clone the repository:
 
-git clone https://github.com/yourusername/cinema-ticket-booking.git
+git clone https://github.com/zohrehchenari1995/Management-Panel-Ticket
 
 Open index.html in your browser to view the project.
 
